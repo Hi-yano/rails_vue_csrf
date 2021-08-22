@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rails SPA APP</title>
+    <%= csrf_meta_tags %> <%= csp_meta_tag %> 
+    <%# 7.8行目と1415行目で、後に説明する vue-cli で作成された css と js が展開される場所の定義を与えるのがポイント %>
+    <link href=/css/app.css rel=stylesheet>
+    <link href="/css/chunk-vendors.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+  <script src="/js/chunk-vendors.js"></script>
+  <script src="/js/app.js"></script>
+</html>
