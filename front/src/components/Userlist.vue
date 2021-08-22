@@ -94,6 +94,7 @@ export default {
     },
   },
   mounted: function () {
+    // CSRFトークンを取得する。(ここが重要らしい)
     axios.defaults.headers.common = {
       "X-Requested-With": "XMLHttpRequest",
       "X-CSRF-TOKEN": document
