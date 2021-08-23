@@ -163,7 +163,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module './components/UsersList.vue'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: \"app\",\n  components: {\n    UsersList: !(function webpackMissingModule() { var e = new Error(\"Cannot find module './components/UsersList.vue'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())\n  }\n});\n\n//# sourceURL=webpack:///./src/App.vue?./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1");
+eval("__webpack_require__.r(__webpack_exports__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module './components/UsersList.vue'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'app',\n  components: {\n    UsersList: !(function webpackMissingModule() { var e = new Error(\"Cannot find module './components/UsersList.vue'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())\n  }\n});\n\n//# sourceURL=webpack:///./src/App.vue?./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1");
 
 /***/ }),
 
